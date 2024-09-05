@@ -29,7 +29,12 @@ This setup will make use of the [PRIME](https://wiki.archlinux.org/title/PRIME) 
 > 
 > This guide is specifically created for the **KDE Plasma desktop environment**
 
-This is my current setup, tested on the Fedora 40 KDE Spin, however, this should work on other distros using KDE Plasma.
+This is my current setup, tested on the Fedora 40 KDE Spin, however, this should work on other distros using KDE Plasma. \
+I am using a AMD RX6800XT (dGPU) and a Ryzen 7 7800x3d (iGPU). 
+
+> [!WARNING]
+> This current setup works fine for me, but may not work for you. \
+> I am not responsible for your system, use this at your own risk!
 
 ### Setting up the BIOS
 
