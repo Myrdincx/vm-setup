@@ -25,7 +25,7 @@ This setup will make use of the [PRIME](https://wiki.archlinux.org/title/PRIME) 
 
 > [!IMPORTANT]  
 > You need **2 GPU's** to make this work, your integrated graphics can also count as a 2nd GPU. \
-> Make sure you have a **cable** in your mobo going to your monitor, additionally, make sure you have a **cable or dummy plug** going from your dGPU to your monitor.
+> Make sure you have a **cable** from your motherboard going to your monitor, additionally, make sure you have a **cable or dummy plug** going from your dGPU to your monitor.
 > 
 > This guide is specifically created for the **KDE Plasma desktop environment**
 
