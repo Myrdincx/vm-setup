@@ -49,7 +49,7 @@ Before we get started with setting up the scripts, we have to gather some inform
 #### Gathering PCI device addresses
 
 > [!NOTE]
-> We gather the PCI device addresses to make sure Plasma-Desktop only uses the Integrated Graphics. \
+> We gather the PCI device addresses to make sure Plasma-Desktop only uses the Integrated Graphics.
 
 Run the following script to list all PCI buses/devices your system has:
 ```
