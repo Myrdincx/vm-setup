@@ -1,8 +1,25 @@
-
 # GPU Virtual Machine Setup
 
 A simple setup for virtual machines on Linux that has GPU passthrough. \
 This setup will make use of the [PRIME](https://wiki.archlinux.org/title/PRIME) technology so that you can use your dGPU both on the host and guest!
+
+## Table of Contents
+
+[Before Getting Started](#before-getting-started)
+- [Setting up the bios](#setting-up-the-bios)
+- [Gathering Information](#gathering-information)
+  - [Gathering PCI Device Addresses](#gathering-pci-device-addresses)
+  - [Confirming PCI Device Path](#confirming-the-pci-device-path)
+[The Setup](#the-setup)
+- [Disabling SDDM](#disabling-sddm)
+- [Setting up scripts](#setting-up-the-scripts)
+  - [Plasma Desktop with IGPU](#starting-plasma-desktop-with-the-igpu)
+  - [Checking dGPU usage](#checking-that-you-dgpu-is-not-in-use)
+[Trying it out!](#trying-everything-out)
+[Reverting Changes](#reverting-changes)
+[Acknowledgements](#acknowledgements)
+[Contributing](#contributing)
+[Support](#support)
 
 ## Before getting started
 
@@ -166,5 +183,6 @@ In case you figured out new methods or want to update this guide, feel free to c
 
 ## Support
 
-For support, please contact me on [Discord](https://discord.com/users/300300616335622154).
+For support, please contact me on [Discord](https://discord.com/users/300300616335622154). \
+Additionally, you can create an Issue on Github :)
 
