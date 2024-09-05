@@ -114,7 +114,7 @@ KWIN_DRM_DEVICES=$(realpath /dev/dri/by-path/pci-0000:13:00.0-card) startplasma-
 ```
 
 > [!IMPORTANT]
-> Make sure to replace the `13:00.0` with the number from the iGPU you gathered before by using `lspci -nn`
+> Make sure to replace the `13:00.0` with the number from the iGPU you gathered in the previous step.
 
 > [!TIP]
 > In order to make this easier, you can setup an alias in `~/.bashrc`, this way you don't need to remember/type the script out everytime you start your system. \
